@@ -1,4 +1,4 @@
-FROM amazoncorretto:17.0.18-alpine3.23
+FROM public.ecr.aws/amazoncorretto/amazoncorretto:17.0.18-alpine3.23
 RUN apk add --no-cache curl
 VOLUME /tmp
 EXPOSE 8080
